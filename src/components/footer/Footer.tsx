@@ -45,7 +45,7 @@ export const Footer = () => {
       <Separator />
       <CredentialsWrapper>
         <FooterTextBoxLeft>
-          <Typography variant="body2">© 2023 TON Foundation</Typography>
+          <Typography variant="body2">© 2024 A group of CoinQuesters</Typography>
         </FooterTextBoxLeft>
         <ContributedWrapper>
           <Typography variant="body2" sx={{ display: "flex", alignItems: "center" }}>
