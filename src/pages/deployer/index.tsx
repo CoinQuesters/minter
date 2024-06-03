@@ -20,7 +20,7 @@ import analytics, { AnalyticsAction, AnalyticsCategory } from "services/analytic
 import { getUrlParam, toDecimalsBN } from "utils";
 import { offchainFormSpec, onchainFormSpec } from "./data";
 import { Form } from "components/form";
-import { GithubButton } from "pages/deployer/githubButton";
+// import { GithubButton } from "pages/deployer/githubButton";
 import { useNavigatePreserveQuery } from "lib/hooks/useNavigatePreserveQuery";
 import { useTonAddress, useTonConnectUI } from "@tonconnect/ui-react";
 
@@ -123,9 +123,9 @@ function DeployerPage() {
                   inputs={formSpec}
                 />
               </SubHeadingWrapper>
-              <Box sx={{ flex: 4 }}>
-                <Description />
-              </Box>
+              {/*<Box sx={{ flex: 4 }}>*/}
+              {/*  <Description />*/}
+              {/*</Box>*/}
             </FormWrapper>
           </Box>
         </Fade>
@@ -205,7 +205,7 @@ function Description() {
         </Link>{" "}
         to understand why.
       </Typography>
-      <GithubButton />
+      {/*<GithubButton />*/}
     </StyledDescription>
   );
 }
